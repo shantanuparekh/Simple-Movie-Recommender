@@ -37,5 +37,8 @@ The app recommends movies similar to a selected title based on metadata such as 
 
 ---
 
+🌐 Live App: https://simple-movie-recommenderioz.streamlit.app/
+
+---
 
 
