@@ -7,7 +7,7 @@ import requests
 # CONFIG
 # -------------------------------
 st.set_page_config(page_title="Movie Recommender", layout="wide")
-TMDB_API_KEY = "6e7b26793831f96a52595f6539e84908"
+TMDB_API_KEY = "Your_api_key"
 
 # -------------------------------
 # LOAD DATA
@@ -103,3 +103,4 @@ if st.session_state.all_recommendations:
     if count < len(recs):
         if st.button("Load More"):
             st.session_state.visible_count += 5
+
